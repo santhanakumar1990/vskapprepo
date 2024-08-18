@@ -26,6 +26,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
 					<mainClass>com.vsk.config.SimpleApp</mainClass>
+					<finalName>vskapp</finalName>
 				</configuration>
 			</plugin>
 		</plugins>
