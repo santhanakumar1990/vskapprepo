@@ -18,7 +18,7 @@ public class SimpleApp {
 
 	@GetMapping(path = "/get/{string}")
 	public String getTestString(@PathVariable("string")String value) {
-		return "Hello from local app "+value;
+		return "Instance running in aws, input is "+value;
 	}
 	
 
