@@ -23,7 +23,7 @@ public class SimpleApp {
 
 	@GetMapping(path = "/info")
 	public String getTestString() {
-		return "Instance running in aws, new update";
+		return "Instance running in aws, new update 2.0";
 	}
 	
 
