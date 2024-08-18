@@ -20,6 +20,11 @@ public class SimpleApp {
 	public String getTestString(@PathVariable("string")String value) {
 		return "Instance running in aws, input is "+value;
 	}
+
+	@GetMapping(path = "/info")
+	public String getTestString() {
+		return "Instance running in aws, new update";
+	}
 	
 
 }
