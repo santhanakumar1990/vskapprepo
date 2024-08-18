@@ -1,4 +1,4 @@
 FROM openjdk:8
 EXPOSE 8080
-ADD target/vskapp.jar vskapp.jar 
-ENTRYPOINT ["java","-jar","/vskapp.jar"]
+ADD target/spring-app-first.jar spring-app-first.jar 
+ENTRYPOINT ["java","-jar","/spring-app-first.jar"]
