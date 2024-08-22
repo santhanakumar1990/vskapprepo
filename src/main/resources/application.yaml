@@ -9,7 +9,7 @@ postgres:
   dialect: org.hibernate.dialect.PostgreSQLDialect
  datasource:
   platform: postgres
-  url: jdbc:postgresql://localhost:5432/product
+  url: jdbc:postgresql://product.c5y0y2gcwxmw.eu-north-1.rds.amazonaws.com/postgres
   username: postgres
   password: India@123
   driverClassName: org.postgresql.Driver
@@ -25,6 +25,6 @@ spring:
   name: product-service
 eureka:
  client:
-  register-with-eureka: true
+  register-with-eureka: false
   service-url:
    defaultZone: http://localhost:8761/eureka
