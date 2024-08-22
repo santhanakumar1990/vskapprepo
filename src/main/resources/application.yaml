@@ -10,7 +10,7 @@ postgres:
   platform: postgres
   url: jdbc:postgresql://product.c5y0y2gcwxmw.eu-north-1.rds.amazonaws.com/postgres
   username: postgres
-  password: India@123
+  password: Psql#12345
   driverClassName: org.postgresql.Driver
 
 spring: 
