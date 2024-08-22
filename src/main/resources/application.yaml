@@ -2,7 +2,6 @@
 server:
  port: 8082
 server.servlet.contextPath: /product-service
-logging.level.root: TRACE
 postgres:
  properties:
   ddlAuto: create-drop
